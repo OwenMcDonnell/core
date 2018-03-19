@@ -1,0 +1,5 @@
+before_build:
+- cmd: dotnet restore
+build:
+  publish_wap: true
+  verbosity: minimal
